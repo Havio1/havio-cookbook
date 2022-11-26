@@ -1,0 +1,11 @@
+{
+  "type": "nbtcrafting:cauldron",
+  "fluid": "minecraft:water",
+  "input": {
+    "item": "minecraft:egg"
+  },
+  "result": {
+    "item": "hcookbook:boiled_egg"
+  },
+  "levels": 1
+}

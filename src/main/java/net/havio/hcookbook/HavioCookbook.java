@@ -1,6 +1,7 @@
 package net.havio.hcookbook;
 
 import net.fabricmc.api.ModInitializer;
+import net.havio.hcookbook.block.ModBlocks;
 import net.havio.hcookbook.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,5 +14,6 @@ public class HavioCookbook implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
